@@ -179,7 +179,7 @@ This allows users to customize the upload file logic by specifying their own vie
 Includes the following ckeditor5 plugins:
 
             Essentials,
-            UploadAdapter,
+            CKFinderUploadAdapter,
             CodeBlock,
             Autoformat,
             Bold,
@@ -220,16 +220,18 @@ Includes the following ckeditor5 plugins:
             ImageInsert,
             WordCount,
             Mention,
+            Markdown,
+            PageBreak,
             Style,
             HorizontalLine,
             LinkImage,
             HtmlEmbed,
             FullPage,
             SpecialCharacters,
+            SpecialCharactersEssentials,
             ShowBlocks,
             SelectAll,
-            FindAndReplace,
-            FullScreen
+            FindAndReplace
 
 
 Examples

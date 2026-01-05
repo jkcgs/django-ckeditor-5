@@ -1,13 +1,13 @@
-import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
-import Command from '@ckeditor/ckeditor5-core/src/command';
-import Widget from '@ckeditor/ckeditor5-widget/src/widget';
+import { Plugin } from '@ckeditor/ckeditor5-core/src/plugin';
+import { Command } from '@ckeditor/ckeditor5-core/src/command';
+import { Widget } from '@ckeditor/ckeditor5-widget/src/widget';
 import { toWidget } from '@ckeditor/ckeditor5-widget/src/utils';
-import Dialog from '@ckeditor/ckeditor5-ui/src/dialog/dialog';
-import View from '@ckeditor/ckeditor5-ui/src/view';
-import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
-import ListView from '@ckeditor/ckeditor5-ui/src/list/listview';
-import ListItemView from '@ckeditor/ckeditor5-ui/src/list/listitemview';
-import SearchTextView from '@ckeditor/ckeditor5-ui/src/search/text/searchtextview';
+import { Dialog } from '@ckeditor/ckeditor5-ui/src/dialog/dialog';
+import { View } from '@ckeditor/ckeditor5-ui/src/view';
+import { ButtonView } from '@ckeditor/ckeditor5-ui/src/button/buttonview';
+import { ListView } from '@ckeditor/ckeditor5-ui/src/list/listview';
+import { ListItemView } from '@ckeditor/ckeditor5-ui/src/list/listitemview';
+import { SearchTextView } from '@ckeditor/ckeditor5-ui/src/search/text/searchtextview';
 import { IconCancel } from '@ckeditor/ckeditor5-icons';
 
 

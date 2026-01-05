@@ -54,8 +54,8 @@ import { SpecialCharactersEssentials } from '@ckeditor/ckeditor5-special-charact
 import { ShowBlocks } from '@ckeditor/ckeditor5-show-blocks';
 import { SelectAll } from '@ckeditor/ckeditor5-select-all';
 import { FindAndReplace } from '@ckeditor/ckeditor5-find-and-replace';
-import FullScreen from '@pikulinpw/ckeditor5-fullscreen';
-import Kbd from '@mlewand/ckeditor5-keyboard-marker/src/Kbd';
+import FullScreen from './plugins/fullscreen/FullScreen';
+import Kbd from './plugins/keyboard-marker/Kbd';
 import FilerImagePicker from './plugins/django-filer-image-picker/src/FilerImagePicker';
 import OfertaBox from './plugins/rata-oferta-box/ofertabox';
 

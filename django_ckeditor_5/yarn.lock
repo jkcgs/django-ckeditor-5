@@ -183,7 +183,7 @@
     ckeditor5 "47.3.0"
     es-toolkit "1.39.5"
 
-"@ckeditor/ckeditor5-basic-styles@^47.3.0", "@ckeditor/ckeditor5-basic-styles@>=19.0.0", "@ckeditor/ckeditor5-basic-styles@47.3.0":
+"@ckeditor/ckeditor5-basic-styles@^47.3.0", "@ckeditor/ckeditor5-basic-styles@47.3.0":
   version "47.3.0"
   resolved "https://registry.npmjs.org/@ckeditor/ckeditor5-basic-styles/-/ckeditor5-basic-styles-47.3.0.tgz"
   integrity sha512-KGDZLyhVc+sF9o8XTiupNRdroALhLpfOssWQv8zzyu7Ak2LFYXCrrr3abscbIX2whL/X92sted11ktLaLmgL0w==
@@ -285,7 +285,7 @@
     "@ckeditor/ckeditor5-utils" "47.3.0"
     ckeditor5 "47.3.0"
 
-"@ckeditor/ckeditor5-core@^47.3.0", "@ckeditor/ckeditor5-core@>=19.0.0", "@ckeditor/ckeditor5-core@>=27.1.0", "@ckeditor/ckeditor5-core@47.3.0":
+"@ckeditor/ckeditor5-core@^47.3.0", "@ckeditor/ckeditor5-core@47.3.0":
   version "47.3.0"
   resolved "https://registry.npmjs.org/@ckeditor/ckeditor5-core/-/ckeditor5-core-47.3.0.tgz"
   integrity sha512-jLawN3a8yL5lbwG8gZeJihcVKkDgq+rAFeXc+Rd+nw+c5uGCdkc5F7PCRjhw+JOGruXUhNsbiF/4iNv3hUcO/A==
@@ -861,7 +861,7 @@
     "@ckeditor/ckeditor5-utils" "47.3.0"
     es-toolkit "1.39.5"
 
-"@ckeditor/ckeditor5-ui@^47.3.0", "@ckeditor/ckeditor5-ui@>=19.0.0", "@ckeditor/ckeditor5-ui@>=27.1.0", "@ckeditor/ckeditor5-ui@47.3.0":
+"@ckeditor/ckeditor5-ui@^47.3.0", "@ckeditor/ckeditor5-ui@47.3.0":
   version "47.3.0"
   resolved "https://registry.npmjs.org/@ckeditor/ckeditor5-ui/-/ckeditor5-ui-47.3.0.tgz"
   integrity sha512-dDHvfIxNfo3z00KwDO6nHCx9ZC2vVEQ+lMmpjbMD8P3FzGRPRd7NqzRbPoieDKlgAiG6Sa2CLThqA+71C+RMfw==
@@ -1170,17 +1170,6 @@
   resolved "https://registry.npmjs.org/@kwsites/promise-deferred/-/promise-deferred-1.1.1.tgz"
   integrity sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==
 
-"@liqd/ckeditor5-file-uploader@github:liqd/ckeditor5-file-uploader#v0.0.5":
-  version "0.0.1"
-  resolved "git+ssh://git@github.com/liqd/ckeditor5-file-uploader.git#1f503d003cbd3fe6696a4063b4a69b85f8662bae"
-  dependencies:
-    mime "3.0.0"
-
-"@mlewand/ckeditor5-keyboard-marker@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/@mlewand/ckeditor5-keyboard-marker/-/ckeditor5-keyboard-marker-1.0.3.tgz"
-  integrity sha512-r4VazctFHYT7nFdJzq0ncxd2GEmwtAq4BjaP6sUOJy6t+sPNYNm9YyaNMOk5RuXoZR/VAfsUQyvlT20/iKoISQ==
-
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz"
@@ -1283,14 +1272,6 @@
     node-gyp "^12.1.0"
     proc-log "^6.0.0"
     which "^6.0.0"
-
-"@pikulinpw/ckeditor5-fullscreen@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/@pikulinpw/ckeditor5-fullscreen/-/ckeditor5-fullscreen-1.0.1.tgz"
-  integrity sha512-11ojcOQOJWOYaI1+CpM78JYduQsOedZkZLGVX/HFsDRuMLFSfQmhPYrwG+8R2YuinhS3RxnDK5Z9SjrqkQV8KQ==
-  dependencies:
-    "@ckeditor/ckeditor5-core" ">=27.1.0"
-    "@ckeditor/ckeditor5-ui" ">=27.1.0"
 
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
@@ -1847,7 +1828,7 @@ chrome-trace-event@^1.0.2:
   resolved "https://registry.npmjs.org/chrome-trace-event/-/chrome-trace-event-1.0.4.tgz"
   integrity sha512-rNjApaLzuwaOTjCiT8lSDdGN1APCiqkChLMJxJPWLunPAt5fy8xgU9/jNOchV84wfIxrA0lRQB7oCT8jrn/wrQ==
 
-ckeditor5@>=41.3.1, ckeditor5@47.3.0:
+ckeditor5@47.3.0:
   version "47.3.0"
   resolved "https://registry.npmjs.org/ckeditor5/-/ckeditor5-47.3.0.tgz"
   integrity sha512-3UDvnAi8TB/5i9flEFfOLIQAIWUoIbucvvFCqKWJqpfZy3F3k34GLEgDV/3VM6O6QV+UNHbzYaSTAl4yKVvoXg==
@@ -3537,11 +3518,6 @@ mime-types@^2.1.27:
   integrity sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==
   dependencies:
     mime-db "1.52.0"
-
-mime@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/mime/-/mime-3.0.0.tgz"
-  integrity sha512-jSCU7/VB1loIWBZe14aEYHU/+1UMEHoaO7qxCOVJOw9GgH72VAWppxNcjU+x9a2k3GSIBXNKxXQFqRvvZ7vr3A==
 
 mimic-fn@^2.1.0:
   version "2.1.0"

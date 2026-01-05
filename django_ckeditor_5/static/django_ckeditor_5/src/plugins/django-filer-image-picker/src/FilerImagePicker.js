@@ -1,6 +1,6 @@
-import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
-import Image from '@ckeditor/ckeditor5-image/src/image';
-import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
+import { Plugin } from '@ckeditor/ckeditor5-core/src/plugin';
+import { Image } from '@ckeditor/ckeditor5-image/src/image';
+import { ButtonView } from '@ckeditor/ckeditor5-ui/src/button/buttonview';
 
 import btnIcon from './add-image.svg';
 

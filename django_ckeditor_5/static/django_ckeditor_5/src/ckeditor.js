@@ -54,6 +54,8 @@ import { SelectAll } from '@ckeditor/ckeditor5-select-all';
 import { FindAndReplace } from '@ckeditor/ckeditor5-find-and-replace';
 import FullScreen from '@pikulinpw/ckeditor5-fullscreen';
 import Kbd from '@mlewand/ckeditor5-keyboard-marker/src/Kbd';
+import FilerImagePicker from './plugins/django-filer-image-picker/src/FilerImagePicker';
+import OfertaBox from './plugins/rata-oferta-box/ofertabox';
 
 export default class ClassicEditor extends ClassicEditorBase {
 }
@@ -112,5 +114,7 @@ ClassicEditor.builtinPlugins = [
     SelectAll,
     FindAndReplace,
     FullScreen,
-    Kbd
+    Kbd,
+    FilerImagePicker,
+    OfertaBox
 ];

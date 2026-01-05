@@ -45,3 +45,31 @@ form .aligned .ck ul {
 .ck-editor-container{
     width: 100%;
 }
+
+.ck-widget.oferta-box {
+    border: #aaa;
+    background: rgba(0, 0, 0, 0.05);
+    text-align: center;
+    padding: 0.5rem 1rem 0.2rem 1rem;
+}
+
+form.ck.ck-oferta-form {
+    margin: 1rem;
+}
+
+.ck-oferta-form .ck-list {
+    margin-top: 5px;
+}
+
+.ck-oferta-form .ck-list__item {
+    margin-bottom: 3px;
+}
+
+.ck-oferta-form .ck-list__item button {
+    border: 1px solid #aaa;
+    cursor: pointer;
+}
+
+.ck-oferta-form .ck-list__item button:hover {
+    background-color: #ccc;
+}
